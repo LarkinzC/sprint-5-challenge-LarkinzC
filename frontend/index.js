@@ -94,17 +94,16 @@ async function someAsyncFunction() {
   } catch (error) {
     console.log(error.message);
   }
+
+  const footer = document.querySelector('footer')
+  const currentYear = new Date().getFullYear()
+  footer.textContent = `© BLOOM INSTITUTE OF TECHNOLOGY ${currentYear}`
 }
 
 someAsyncFunction();
 
   
    
-
-
-  const footer = document.querySelector('footer')
-  const currentYear = new Date().getFullYear()
-  footer.textContent = `© BLOOM INSTITUTE OF TECHNOLOGY ${currentYear}`
 
   // 👆 WORK WORK ABOVE THIS LINE 👆
 
