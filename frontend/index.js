@@ -70,6 +70,7 @@ function learnerCard(learner, container) {
   mentorDropLi.addEventListener('click', () => {
     mentorDropLi.classList.toggle('open')
     mentorDropLi.classList.toggle('closed')
+    card.classList.toggle('selected')
   })
 
 
